@@ -7,12 +7,29 @@
   .card {
     width: 33.3%;
   }
+  .intro {
+    height: 750px;
+  }
+  .intro_title {
+    font-size: 70px;
+  }
 }
 @media (max-width: 999px) {
   .cards {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 30px;
+  }
+  .intro {
+    height: 570px;
+  }
+  .intro_title {
+    font-size: 60px;
+    margin-bottom: 0px;
+  }
+  .intro_text {
+    font-size: 28px;
+    margin-bottom: 15px;
   }
 }
 @media (max-width: 950px) {
@@ -26,6 +43,9 @@
   }
   .phone-num a {
     text-align: center;
+  }
+  .intro {
+    height: 500px;
   }
 }
 
@@ -41,7 +61,12 @@
     margin-bottom: 40px;
   }
   .intro {
+    height: 470px;
     margin-bottom: 40px;
+  }
+  .intro_title {
+    font-size: 50px;
+    margin-bottom: 0px;
   }
 }
 
@@ -57,7 +82,7 @@
   .intro_title {
     font-size: 60px;
   }
-  .intro_text{
+  .intro_text {
     font-size: 35px;
   }
   .cards {
@@ -72,11 +97,31 @@
   .ul_links {
     display: none;
   }
-    .footer{
+  .footer {
     margin-top: 50px;
   }
-  .about-us_box{
+  .about-us_box {
     margin-bottom: 50px;
+  }
+  .intro {
+    height: 400px;
+  }
+  .intro_title {
+    font-size: 40px;
+    margin: 0px;
+  }
+  .intro_text {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .menu{
+    order: 0;
+  }
+  .logo{
+    order: 1;
+  }
+  .input{
+    order: 2;
   }
 }
 
@@ -94,27 +139,30 @@
   .card h3 {
     text-align: end;
   }
-}
-.phone-num {
-  text-align: start;
-}
-.Contacts_text {
-  width: 100%;
-}
-  .footer{
+  .phone-num {
+    text-align: start;
+  }
+  .Contacts_text {
+    width: 100%;
+  }
+  .footer {
     margin-top: 40px;
   }
-    .about-us_box{
+  .about-us_box {
     margin-bottom: 40px;
   }
+  .intro {
+    height: 350px;
+  }
+}
 
 @media (max-width: 499px) {
   .intro_title {
-    font-size: 60px;
-    margin-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 0px;
   }
   .intro_text {
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
 }
@@ -127,20 +175,41 @@
     font-size: 28px;
     margin-bottom: 15px;
   }
-  .footer{
+  .footer {
     margin-top: 30px;
   }
-    .about-us_box{
+  .about-us_box {
     margin-bottom: 30px;
+  }
+     .intro {
+    height: 300px;
+  }
+  .intro_title {
+    font-size: 35px;
+    margin: 0px;
+  }
+  .intro_text {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .input_button{
+    display: none;
+  }
+  input{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
   }
 }
 @media (max-width: 369px) {
-
- .footer{
+  .footer {
     margin-top: 25px;
   }
-    .about-us_box{
+  .about-us_box {
     margin-bottom: 25px;
   }
   
+  .intro{
+    height: 200px;
+  }
+ 
 }
