@@ -1,6 +1,6 @@
 @media (max-width: 1150px) {
   .cards {
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
   }
@@ -16,7 +16,7 @@
 }
 @media (max-width: 999px) {
   .cards {
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
   }
@@ -35,6 +35,7 @@
 @media (max-width: 950px) {
   .Contacts_box {
     flex-direction: column;
+    align-items: center;
     gap: 40px;
     text-align: center;
   }
@@ -68,6 +69,24 @@
     font-size: 50px;
     margin-bottom: 0px;
   }
+  .about-us_box {
+    align-items: center;
+  }
+  .cards {
+    justify-content: center;
+  }
+  .footer {
+    margin-top: 60px;
+  }
+  .Catalog h2 {
+    margin-bottom: 35px;
+  }
+  .Contacts h2 {
+    margin-bottom: 35px;
+  }
+  .about-us_box{
+    margin-bottom: 35px;
+  }
 }
 
 @media (max-width: 699px) {
@@ -81,11 +100,13 @@
   }
   .intro_title {
     font-size: 60px;
+    line-height: 100%;
   }
   .intro_text {
     font-size: 35px;
   }
   .cards {
+    justify-content: center;
     gap: 20px;
   }
   .card img {
@@ -98,10 +119,13 @@
     display: none;
   }
   .footer {
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .about-us_box {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+  }
+  .about-us_box {
+    align-items: center;
   }
   .intro {
     height: 400px;
@@ -114,14 +138,30 @@
     font-size: 25px;
     margin-bottom: 15px;
   }
-  .menu{
+  .menu {
     order: 0;
   }
-  .logo{
+  .logo {
     order: 1;
   }
-  .input{
+  .input {
     order: 2;
+  }
+  .intro_button {
+    width: 170px;
+    height: 40px;
+  }
+  .about-us h2 {
+    margin: 25px;
+  }
+  .intro {
+    margin-bottom: 0px;
+  }
+  .Catalog h2 {
+    margin-bottom: 25px;
+  }
+  .Contacts h2 {
+    margin-bottom: 25px;
   }
 }
 
@@ -154,6 +194,13 @@
   .intro {
     height: 350px;
   }
+  .about-us_box img {
+    width: 100%;
+  }
+  .intro_button {
+    width: 155px;
+    height: 40px;
+  }
 }
 
 @media (max-width: 499px) {
@@ -164,6 +211,9 @@
   .intro_text {
     font-size: 20px;
     margin-bottom: 15px;
+  }
+  .about-us_box img {
+    width: 100%;
   }
 }
 @media (max-width: 450px) {
@@ -181,7 +231,7 @@
   .about-us_box {
     margin-bottom: 30px;
   }
-     .intro {
+  .intro {
     height: 300px;
   }
   .intro_title {
@@ -192,12 +242,19 @@
     font-size: 20px;
     margin-bottom: 15px;
   }
-  .input_button{
+  .input_button {
     display: none;
   }
-  input{
+  input {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+  }
+  .about-us_box img {
+    width: 100%;
+  }
+  .intro_button {
+    width: 150px;
+    height: 35px;
   }
 }
 @media (max-width: 369px) {
@@ -207,9 +264,33 @@
   .about-us_box {
     margin-bottom: 25px;
   }
-  
-  .intro{
+
+  .intro {
     height: 200px;
   }
- 
+  .about-us_box img {
+    width: 100%;
+  }
+  .intro_button {
+    width: 140px;
+    height: 30px;
+  }
+  .about-us h2 {
+    font-size: 30px;
+    margin: 10px;
+  }
+  .Catalog h2 {
+    font-size: 30px;
+    margin: 15px;
+  }
+  .Catalog {
+    margin-bottom: 25px;
+  }
+  .Contacts h2 {
+    font-size: 30px;
+    margin: 15px;
+  }
+  .logo h2 {
+    font-size: 30px;
+  }
 }
