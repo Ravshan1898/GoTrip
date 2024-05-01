@@ -293,4 +293,18 @@
   .logo h2 {
     font-size: 30px;
   }
+  .intro_text{
+    margin-top: 10px;
+    line-height: 100%;
+  }
+  .intro_button{
+    font-size: 15px;
+  }
+  .card h3 {
+    margin-top: 15px;
+  }
+  .footer{
+    padding: 20px 10px;
+  }
+
 }
