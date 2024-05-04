@@ -84,7 +84,7 @@
   .Contacts h2 {
     margin-bottom: 35px;
   }
-  .about-us_box{
+  .about-us_box {
     margin-bottom: 35px;
   }
 }
@@ -272,7 +272,7 @@
     width: 100%;
   }
   .intro_button {
-    width: 140px;
+    width: 130px;
     height: 30px;
   }
   .about-us h2 {
@@ -291,20 +291,38 @@
     margin: 15px;
   }
   .logo h2 {
-    font-size: 30px;
+    font-size: 27px;
   }
-  .intro_text{
+  .intro_text {
     margin-top: 10px;
     line-height: 100%;
   }
-  .intro_button{
+  .intro_button {
     font-size: 15px;
   }
   .card h3 {
     margin-top: 15px;
   }
-  .footer{
+  .footer {
     padding: 20px 10px;
   }
-
+  .card_link h3 {
+    font-size: 20px;
+  }
+  header {
+    padding: 24px 0;
+  }
+  input {
+    width: 140px;
+    height: 30px;
+  }
+  .footer {
+    padding: 20px 0;
+  }
+  .Contacts_box {
+    gap: 15px;
+  }
+  .phone-num a {
+    line-height: 30px;
+  }
 }

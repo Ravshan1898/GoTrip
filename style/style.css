@@ -21,7 +21,7 @@ header {
 .nav_box {
   display: flex;
   justify-content: space-between;
-  align-self: center;
+  align-items: center;
 }
 .logo h2 {
   font-family: Rubik;
@@ -238,7 +238,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap:35px;
+  gap:30px;
 }
 .Footer_text {
   font-family: Rubik;
